@@ -13,8 +13,8 @@ function Header() {
     
     const[{ user }]=useStateValue();
 
-    const[leftText,setLeftText]=useState("http://www.youtube.com/embed/xDMP3i36naA");
-    const[rightText,setRightText]=useState("http://www.youtube.com/embed/xDMP3i36naA");
+    const[leftText,setLeftText]=useState("");
+    const[rightText,setRightText]=useState("");
 
     const[lefturl,setLeftUrl]=useState(leftText);
     const[righturl,setRightUrl]=useState(leftText);
