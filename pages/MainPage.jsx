@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
-import "./Header.css"
-import { auth } from './firebase';
-import {useStateValue} from "./StateProvider";
+import "./MainPage.css"
+import { auth } from '../firebase';
+import {useStateValue} from "../StateProvider";
 import Iframe from 'react-iframe'
 
 
@@ -119,5 +119,4 @@ function Header() {
     )
 }
 
-export default Header;
-
+export default MainPage;
